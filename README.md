@@ -10,6 +10,7 @@ Since it's just me using this, it's not on clojars. To install:
 $ git clone https://github.com/cldwalker/clojar-template
 $ cd clojar-template
 $ lein install
+```
 
 ## Usage
 
