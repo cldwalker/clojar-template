@@ -18,5 +18,6 @@
              ["CONTRIBUTING.md" (render "CONTRIBUTING.md" data)]
              ["LICENSE.txt" (render "LICENSE.txt" data)]
              [".gitignore" (render "gitignore" data)]
+             [".travis.yml" (render "travis.yml" data)]
              ["src/{{nested-dirs}}.clj" (render "core.clj" data)]
              ["test/{{nested-dirs}}_test.clj" (render "test.clj" data)])))
